@@ -34,7 +34,7 @@ This is My Personal Portfolio Project to showcase my skills and projects as a Fu
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://vitejs.dev/">Vite</a></li>   
+    <li><a href="https://nextjs.org/">NEXT.JS</a></li>   
     <li><a href="https://react.dev/">React</a></li>
     <li><a href="https://redux.js.org/">Redux</a></li>
     <li><a href="https://tailwindcss.com/">Tailwindcss</a></li>
@@ -75,17 +75,17 @@ In order to run this project you need:
 ### Setup
 Clone this repository to your desired folder or download the Zip folder:
 ```sh
-    "git clone https://github.com/Log-benjamin/Binyam-Portfolio"
+  "https://github.com/Log-benjamin/B-Portfolio"
 ```
 - Navigate to the location of the folder in your machine:
 
 ```sh
-    cd ./desired_folder/
+  cd ./desired_folder/
 ```
 ### Install
 Install all dependencies:
 ```sh
-    "npm install"
+  "npm install"
 ```
 
 ### Usage
@@ -119,7 +119,7 @@ You can deploy this project using: GitHub Pages,
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Add more Features.
-- refactor code for better efficieny.
+- Refactor code for better efficieny.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
