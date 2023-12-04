@@ -1,0 +1,39 @@
+nav ul {
+  position: relative;
+}
+
+nav ul li {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+nav ul span {
+  position: absolute;
+  margin: 0;
+  left: -2.7rem;
+  width: 70px;
+  height: 100%;
+  background: linear-gradient(45deg, #1f481f, #54a625);
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+nav ul li:nth-child(1):hover ~ span {
+  left: -2.7rem;
+}
+
+nav ul li:nth-child(2):hover ~ span {
+  left: 2.3rem;
+  width: 104px;
+}
+
+nav ul li:nth-child(3):hover ~ span {
+  left: 9.5rem;
+  width: 77.5px;
+}
+
+nav ul li:nth-child(4):hover ~ span {
+  left: 15rem;
+  width: 95px;
+}
