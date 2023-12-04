@@ -1,7 +1,11 @@
-export default function Home() {
+import Navbar from "./components/Navbar";
+
+const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>My Portfolio Website</h1>
+    <main className="flex min-h-screen flex-col bg-[#1b1b1b]">
+      <Navbar />
     </main>
   )
 }
+
+export default Home;
