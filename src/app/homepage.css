@@ -1,0 +1,17 @@
+.Img-container {
+  background-image: url('../../public/images/coding.gif');
+}
+
+.home-pageimg {
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.start-collab-btn {
+  background: linear-gradient(45deg, #1f481f, #54a625);
+}
+
+.start-collab-btn:hover {
+  background: #003153;
+  background: linear-gradient(45deg, #54a625, #003153);
+}
