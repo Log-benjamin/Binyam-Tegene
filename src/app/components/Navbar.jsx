@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <header id="home">
-      <nav className="fixed py-1 top-0 left-0 right-0 z-10 bg-[#003153] opacity-10">
+      <nav className="fixed py-1 px-3 top-0 left-0 right-0 z-10 bg-[#003153] opacity-10">
         <div className="flex flex-wrap items-center justify-between mx-auto px-4 pt-1">
           <Link href={"#home"}>
             <Image

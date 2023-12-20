@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <main className="flex min-h-screen flex-col bg-[#0d1f30]">
       <Navbar />
-      <div className="container flex flex-col mt-24 mx-auto px-12 py-10">
+      <div className="container flex flex-col mx-auto mt-24 px-[5%] py-10">
         <HomeSection />
         <ProjectSection />
       </div>
