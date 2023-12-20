@@ -1,5 +1,5 @@
-nav ul {
-  position: relative;
+nav {
+  animation: slideRight 1s ease forwards;
 }
 
 nav ul li {
@@ -14,9 +14,17 @@ nav ul span {
   left: -2.7rem;
   width: 70px;
   height: 100%;
-  background: linear-gradient(45deg, #1f481f, #54a625);
+  background: rgb(77, 152, 77);
+  box-shadow: 0 0 10px greenyellow;
   border-radius: 10px;
   transition: 0.7s;
+}
+
+.mob-link-li:hover {
+  background: rgb(77, 152, 77);
+  box-shadow: 0 0 10px greenyellow;
+  border-radius: 10px;
+  color: white;
 }
 
 nav ul li:nth-child(1):hover ~ span {
@@ -36,4 +44,16 @@ nav ul li:nth-child(3):hover ~ span {
 nav ul li:nth-child(4):hover ~ span {
   left: 15rem;
   width: 95px;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

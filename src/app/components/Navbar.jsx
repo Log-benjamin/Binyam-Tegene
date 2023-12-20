@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { AnimatePresence, motion } from "framer-motion";
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
-import MenuOverlay from './MenuOverlay';
 import { menuVars, containerVars } from './Animate';
 import '../navbar.css';
+import mobileLinkVars from './Animate';
 
 const navlinks = [
   { title: "Home", path: "#home" },
@@ -18,10 +18,10 @@ const Navbar = () => {
   const [openNavbar, setOpenNavbar] = useState(false);
 
   return (
-    <header>
-      <nav className="fixed top-0 left-0 right-0 z-10 bg-[#003153] bg-opacity-100">
+    <header id="home">
+      <nav className="fixed py-1 px-3 top-0 left-0 right-0 z-10 bg-[#003153] opacity-10">
         <div className="flex flex-wrap items-center justify-between mx-auto px-4 pt-1">
-          <Link href={"/"}>
+          <Link href={"#home"}>
             <Image
               src="/images/Binyam-M-logo.png"
               alt="Logo images"
@@ -36,7 +36,7 @@ const Navbar = () => {
             </button>
           </div>
           <div className="menu hidden md:block md:w-auto" id="navbar">
-            <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 font-nunito">
+            <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 font-nunito relative">
               {navlinks.map((link, index) => (
                 <li key={index} className="navbar-li py-2 uppercase">
                   <Link href={link.path} className="block py-2 pl-3 pr-4 text-[#ADB7BE] text-base rounded md:p-0 hover:text-white">
@@ -79,7 +79,20 @@ const Navbar = () => {
                 animate="open"
                 exit="initial"
               >
-                {openNavbar ? <MenuOverlay links={navlinks} /> : null}
+                {openNavbar ? 
+                  <motion.div variants={mobileLinkVars} className="text-base uppercase">
+                    <ul className="flex flex-col h-full py-10 justify-center items-center gap-4">
+                      {navlinks.map((link, index)=>(
+                        <li key={index} className="mob-link-li px-5 font-nunito">
+                          <Link onClick={()=>setOpenNavbar(false)} href={link.path} className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-blue">
+                            {link.title}
+                          </Link>    
+                        </li>
+                      ))}
+                    </ul>
+                  </motion.div>
+                  :
+                  null}
               </motion.div>
             </div>
             </motion.div>

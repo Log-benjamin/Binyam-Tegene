@@ -37,7 +37,7 @@ const menuVars = {
 
   const mobileLinkVars = {
     initial: {
-      y: "30vh",
+      y: "40vh",
       transition: {
         duration: 0.5,
         ease: [0.37, 0, 0.63, 1],
