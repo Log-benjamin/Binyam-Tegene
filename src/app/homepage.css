@@ -1,5 +1,11 @@
+section div div {
+  animation: slideLeft 2s ease forwards;
+  animation-delay: 1s;
+}
+
 .Img-container {
   background-image: url('../../public/images/coding.gif');
+  box-shadow: 0 0 100px rgb(77, 152, 77);
 }
 
 .home-pageimg {
@@ -8,10 +14,42 @@
 }
 
 .start-collab-btn {
-  background: linear-gradient(45deg, #1f481f, #54a625);
+  background: rgb(77, 152, 77);
+  box-shadow: 0 0 10px greenyellow;
 }
 
 .start-collab-btn:hover {
-  background: #003153;
+  box-shadow: 0 0 50px greenyellow;
+}
+
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgb(77, 152, 77);
+  border-radius: 50%;
+  color: rgb(19, 180, 19);
+  text-decoration: none;
+  margin: 30px 20px 30px 1px;
+}
+
+.home-sci a:hover {
+  box-shadow: 0 0 20px greenyellow;
   background: linear-gradient(45deg, #54a625, #003153);
+  color: white;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
