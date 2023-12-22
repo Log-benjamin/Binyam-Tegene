@@ -92,7 +92,7 @@ Install all dependencies:
 
 To run the project, run the following command:
 ```sh
-     "npm run dev"
+  "npm run dev"
 ```
 ### Run tests
 To run tests, run the following command:
