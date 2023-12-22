@@ -1,8 +1,3 @@
-section div div {
-  animation: slideLeft 2s ease forwards;
-  animation-delay: 1s;
-}
-
 .Img-container {
   background-image: url('../../public/images/coding.gif');
   box-shadow: 0 0 100px rgb(77, 152, 77);
@@ -40,16 +35,4 @@ section div div {
   box-shadow: 0 0 20px greenyellow;
   background: linear-gradient(45deg, #54a625, #003153);
   color: white;
-}
-
-@keyframes slideLeft {
-  0% {
-    transform: translateX(300px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
