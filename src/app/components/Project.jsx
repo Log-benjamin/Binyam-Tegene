@@ -63,12 +63,12 @@ const projectsData = [
   }
 ];
 
-const ProjectSection = () => {
+const Project = () => {
   return (
     <section id="projects">
-      <div className="project-container">
-        <h2 className="text-center font-mono italic text-4xl py-3 sm:text-6xl font-bold mt-10 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
-          My Projects
+      <div className="project-container mt-10">
+        <h2 className="text-center font-mono italic text-4xl py-3 sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
+          Featured Projects
         </h2>
         <br />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-14 mt-10">
@@ -81,4 +81,4 @@ const ProjectSection = () => {
   );
 }
 
-export default ProjectSection; 
+export default Project; 

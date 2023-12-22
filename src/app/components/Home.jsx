@@ -8,8 +8,8 @@ import "../homepage.css";
 const HomeSection = () => {
   return (
     <section className="home-container">
-      <div className="grid grid-cols-2 sm:grid-cols-12">
-        <div className="col-span-6 md:mr-6 place-self-center mt-6 text-center sm:text-left">
+      <div className="flex flex-col sm:flex-row justify-center">
+        <div className="md:mr-6 place-self-center mt-6 text-center sm:text-left">
           <h1 className="mb-2 text-3xl sm:text-5xl py-2 lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
             Hi, I&apos;m{" "}Binyam
           </h1>
@@ -28,7 +28,7 @@ const HomeSection = () => {
               repeat={Infinity}
             />
           </h2>
-          <p className="text-[#ADB7BE] text-base sm:text-lg md-6 lg:text-xl">
+          <p className="text-[#ADB7BE] w-[100%] md:w-[75%] text-base sm:text-lg md-6 lg:text-xl">
             An open source enthusiast that turns ideas into functional and visually stunning realities.
             I build websites focusing on simplicity, accessibility, and responsive design.
           </p>
@@ -44,8 +44,8 @@ const HomeSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-6 hidden sm:block place-self-center mt-4 lg:mt-0">
-          <div className="Img-container mt-10 rounded bg-[#181818] sm:ml-5 sm:w-[280px] sm:h-[170px] md:w-[330px] md:h-[240px] lg:w-[500px] lg:h-[375px] lg:ml-2 relative">
+        <div className="hidden sm:block place-self-center mt-4 lg:mt-0">
+          <div className="Img-container mt-10 rounded bg-[#181818] ml-3 sm:w-[320px] sm:h-[230px] md:w-[420px] md:h-[310px] lg:w-[500px] lg:h-[375px] relative">
             <Image
               src="/images/home-page2.jpg"
               alt="hero image"

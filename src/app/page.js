@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
-import HomeSection from "./components/HomeSection";
-import ProjectSection from "./components/ProjectSection";
+import HomeSection from "./components/Home";
+import Project from "./components/Project";
+import About from "./components/About";
 
 const Home = () => {
   return (
@@ -8,7 +9,8 @@ const Home = () => {
       <Navbar />
       <div className="container flex flex-col mx-auto mt-24 px-[5%] py-10">
         <HomeSection />
-        <ProjectSection />
+        <About />
+        <Project />
       </div>
     </main>
   )

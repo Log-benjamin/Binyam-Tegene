@@ -10,8 +10,8 @@ import mobileLinkVars from './Animate';
 
 const navlinks = [
   { title: "Home", path: "#home" },
-  { title: "Projects", path: "#projects" },
   { title: "About", path: "#about" },
+  { title: "Projects", path: "#projects" },
   { title: "Contact", path: "#contact" },
 ];
 const Navbar = () => {
@@ -103,4 +103,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar
+export default Navbar;
