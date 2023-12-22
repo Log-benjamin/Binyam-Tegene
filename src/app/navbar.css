@@ -33,12 +33,12 @@ nav ul li:nth-child(1):hover ~ span {
 
 nav ul li:nth-child(2):hover ~ span {
   left: 2.3rem;
-  width: 104px;
+  width: 77.5px;
 }
 
 nav ul li:nth-child(3):hover ~ span {
-  left: 9.5rem;
-  width: 77.5px;
+  left: 7.75rem;
+  width: 104px;
 }
 
 nav ul li:nth-child(4):hover ~ span {

@@ -9,31 +9,32 @@ export default function Modal() {
   const toggleModal = () => {
     setModal(!modal);
   };
-
-  if(modal) {
-    document.body.classList.add('active-modal')
-  } else {
-    document.body.classList.remove('active-modal')
-  }
-
   return (
     <>
       <button  onClick={toggleModal} className="flex resume-btn w-fit px-6 py-3 sm:ml-0 rounded-full sm:mr-4 text-white">
         <span className="text-lg mr-3">
           Education
         </span>
-        <img width="32" height="32" src="https://img.icons8.com/color-glass/48/education.png" alt="education"/>
+        <Image
+          src="/images/icons/education.png"
+          alt="education-ico"
+          width={33}
+          height={33}
+        />
       </button>
-
       {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
-
           <div className="modal-content flex flex-col">
             <div className="self-end mb-5">
               <button className="close-modal" onClick={toggleModal}>
-              <img width="30" height="30" src="https://img.icons8.com/glyph-neue/64/000000/delete-sign.png" alt="delete-sign"/>
-              </button>
+              <Image
+                src="/images/icons/deleteX.png"
+                alt="deleteX-ico"
+                width={30}
+                height={30}
+              />
+            </button>
             </div>
             <div className="modal-container flex flex-col md:flex-row justify-between px-5 overflow-scroll">
               <div>
