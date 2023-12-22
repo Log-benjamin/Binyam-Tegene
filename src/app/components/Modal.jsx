@@ -46,7 +46,7 @@ export default function Modal() {
                 </h2>
                 <a target="_blank" href="https://drive.google.com/file/d/1cmIpMvxq6fkybe4YqI8kirfrXhKqWmiw/view?usp=sharing">
                   <Image
-                    src="/images/Bsc.jpg"
+                    src="/images/Bsc.JPG"
                     alt="Bsc Degree image"
                     className="rounded mt-2"
                     width={300}
