@@ -28,7 +28,6 @@ const EmailSection = () => {
     };
 
     const response = await fetch(endpoint, options);
-    const resData = await response.json();
 
     if (response.status === 200) {
       setEmailSubmitted(true);
@@ -48,7 +47,7 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities. Whether you have a question or want to collab,
-           my inbox is always open.  I&apos;ll will get back to you!
+           my inbox is always open. I will get back to you!
         </p>
         <div className="home-sci mb-2 ml-5 flex justify-between sm:justify-start sm:ml-0">
           <a href="https://www.linkedin.com/in/binyamtegene/"><FaLinkedin size={17} /></a>
