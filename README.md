@@ -58,7 +58,7 @@ This is My Personal Portfolio Project to showcase my skills and projects as a Fu
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [My Portfolio](https://log-benjamin.github.io/My_Portfolio/)
+- [Binyam-Tegene](https://binyam-tegene.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +75,7 @@ In order to run this project you need:
 ### Setup
 Clone this repository to your desired folder or download the Zip folder:
 ```sh
-  "https://github.com/Log-benjamin/B-Portfolio"
+  "https://github.com/Log-benjamin/Binyam-Tegene"
 ```
 - Navigate to the location of the folder in your machine:
 
