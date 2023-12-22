@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { TypeAnimation } from 'react-type-animation';
 import { FaInstagram, FaLinkedin, FaSquareGithub,  FaXTwitter } from "react-icons/fa6";
 import "../homepage.css";
@@ -34,14 +35,17 @@ const HomeSection = () => {
           </p>
           <div className="mt-2 place-self-center">
             <div className="home-sci mt-2 mb-2 ml-5 flex justify-between sm:justify-start sm:ml-0">
-              <a href="#"><FaLinkedin size={17} /></a>
-              <a href="#"><FaSquareGithub size={17} /></a>
-              <a href="#"><FaXTwitter size={17} /></a>
-              <a href="#"><FaInstagram size={17} /></a>
+              <a href="https://www.linkedin.com/in/binyamtegene/"><FaLinkedin size={17} /></a>
+              <a href="https://github.com/Log-benjamin/"><FaSquareGithub size={17} /></a>
+              <a href="https://twitter.com/@binyam_tegene"><FaXTwitter size={17} /></a>
+              <a href="https://www.instagram.com/mengistu.binyam/"><FaInstagram size={17} /></a>
             </div>
             <button className="start-collab-btn w-full sm:w-fit px-8 py-3 sm:ml-0 rounded-full mr-4 text-white">
-              Start Collaboration
+              <Link  href={"#contact"}>
+                Start Collaboration
+              </Link>
             </button>
+
           </div>
         </div>
         <div className="hidden sm:block place-self-center mt-4 lg:mt-0">

@@ -4,12 +4,14 @@
   border-radius: 20px;
 }
 
-.desc-container {
+.desc-container,
+.about-bio {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
 
-.desc-container::-webkit-scrollbar {
+.desc-container::-webkit-scrollbar,
+.about-bio::-webkit-scrollbar {
   display: none;
 }
 
@@ -28,9 +30,7 @@
 }
 
 .preview-btn {
-  box-shadow: 0 0 50px rgb(47, 137, 255);
-  border: 2px solid rgb(77, 152, 77);
-  background: linear-gradient(45deg, #256aa6, #005337);
+  background: linear-gradient(45deg, #335676, #016443);
 }
 
 .techStack-cont:hover,
