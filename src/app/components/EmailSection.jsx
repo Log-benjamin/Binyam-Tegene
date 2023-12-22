@@ -14,16 +14,11 @@ const EmailSection = () => {
     };
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
-
-    // Form the request for sending data to the server.
     const options = {
-      // The method is POST because we are sending data.
       method: "POST",
-      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
@@ -32,6 +27,12 @@ const EmailSection = () => {
     if (response.status === 200) {
       setEmailSubmitted(true);
     }
+    const emailInput = document.getElementById('email');
+    const subjectInput = document.getElementById('subject');
+    const messageInput = document.getElementById('message');
+    emailInput.value = '';
+    subjectInput.value = '';
+    messageInput.value = '';
   };
 
   return (
@@ -50,10 +51,10 @@ const EmailSection = () => {
            my inbox is always open. I will get back to you!
         </p>
         <div className="home-sci mb-2 ml-5 flex justify-between sm:justify-start sm:ml-0">
-          <a href="https://www.linkedin.com/in/binyamtegene/"><FaLinkedin size={17} /></a>
-          <a href="https://github.com/Log-benjamin/"><FaSquareGithub size={17} /></a>
-          <a href="https://twitter.com/@binyam_tegene"><FaXTwitter size={17} /></a>
-          <a href="https://www.instagram.com/mengistu.binyam/"><FaInstagram size={17} /></a>
+          <a target="_blank" href="https://www.linkedin.com/in/binyamtegene/"><FaLinkedin size={17} /></a>
+          <a target="_blank" href="https://github.com/Log-benjamin/"><FaSquareGithub size={17} /></a>
+          <a target="_blank" href="https://twitter.com/@binyam_tegene"><FaXTwitter size={17} /></a>
+          <a target="_blank" href="https://www.instagram.com/mengistu.binyam/"><FaInstagram size={17} /></a>
         </div>
       </div>
       <div>

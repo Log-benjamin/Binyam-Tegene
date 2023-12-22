@@ -35,10 +35,10 @@ const HomeSection = () => {
           </p>
           <div className="mt-2 place-self-center">
             <div className="home-sci mt-2 mb-2 ml-5 flex justify-between sm:justify-start sm:ml-0">
-              <a href="https://www.linkedin.com/in/binyamtegene/"><FaLinkedin size={17} /></a>
-              <a href="https://github.com/Log-benjamin/"><FaSquareGithub size={17} /></a>
-              <a href="https://twitter.com/@binyam_tegene"><FaXTwitter size={17} /></a>
-              <a href="https://www.instagram.com/mengistu.binyam/"><FaInstagram size={17} /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/binyamtegene/"><FaLinkedin size={17} /></a>
+              <a target="_blank" href="https://github.com/Log-benjamin/"><FaSquareGithub size={17} /></a>
+              <a target="_blank" href="https://twitter.com/@binyam_tegene"><FaXTwitter size={17} /></a>
+              <a target="_blank" href="https://www.instagram.com/mengistu.binyam/"><FaInstagram size={17} /></a>
             </div>
             <button className="start-collab-btn w-full sm:w-fit px-8 py-3 sm:ml-0 rounded-full mr-4 text-white">
               <Link  href={"#contact"}>

@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="flex flex-col mt-5 sm:flex-row justify-center align-center items-center py-3">
           <button className="resume-btn mb-10 sm:mb-0 w-fit px-8 py-3 sm:ml-0 rounded-full sm:mr-12 text-white">
-            <a className="flex" href="https://drive.google.com/file/d/1R7QBc8onpcXdrEkI6jVEuHQQVX5mhDm5/view?usp=sharing">
+            <a target="_blank" className="flex" href="https://drive.google.com/file/d/1R7QBc8onpcXdrEkI6jVEuHQQVX5mhDm5/view?usp=sharing">
               <span className="text-lg mr-3">
                 Resume
               </span>

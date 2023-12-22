@@ -44,7 +44,7 @@ export default function Modal() {
                 <h2 className="text-lg text-white font-bold">
                   Addis Ababa University
                 </h2>
-                <a href="https://drive.google.com/file/d/1cmIpMvxq6fkybe4YqI8kirfrXhKqWmiw/view?usp=sharing">
+                <a target="_blank" href="https://drive.google.com/file/d/1cmIpMvxq6fkybe4YqI8kirfrXhKqWmiw/view?usp=sharing">
                   <Image
                     src="/images/Bsc.jpg"
                     alt="Bsc Degree image"
@@ -60,7 +60,7 @@ export default function Modal() {
                   <br />
                   Microverse
                 </h2>
-                <a href="https://drive.google.com/file/d/12UJlFq1Fbl6Qtt4JZDfUpIQR7H0ZJ7t2/view?usp=sharing">
+                <a target="_blank" href="https://drive.google.com/file/d/12UJlFq1Fbl6Qtt4JZDfUpIQR7H0ZJ7t2/view?usp=sharing">
                   <Image
                     src="/images/Full-Stack.jpg"
                     alt="Bsc Degree image"
@@ -76,7 +76,7 @@ export default function Modal() {
                   <br />
                   Coursera
                 </h2>
-                <a href="https://drive.google.com/file/d/1YegI3svi_CEuv-SvK5PVXJ_MdD2zCMNL/view?usp=sharing">
+                <a target="_blank" href="https://drive.google.com/file/d/1YegI3svi_CEuv-SvK5PVXJ_MdD2zCMNL/view?usp=sharing">
                   <Image
                     src="/images/Data-Analytics.jpg"
                     alt="Bsc Degree image"

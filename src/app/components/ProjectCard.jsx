@@ -11,10 +11,10 @@ const ProjectCard = ({ project: { title, description, image, gitUrl, previewUrl,
         <p className="text-[#ADB7BE]">{description}</p>
       </div>
       <div className=" flex justify-between mt-5">
-        <Link href={gitUrl} className="preview-btn sm:mb-0 w-fit px-5 py-2 sm:ml-0 rounded-full text-white">
+        <Link target="_blank" href={gitUrl} className="preview-btn sm:mb-0 w-fit px-5 py-2 sm:ml-0 rounded-full text-white">
           Source Code
         </Link>
-        <Link href={previewUrl} className="preview-btn sm:mb-0 w-fit px-5 py-2 sm:ml-0 rounded-full text-white">
+        <Link target="_blank" href={previewUrl} className="preview-btn sm:mb-0 w-fit px-5 py-2 sm:ml-0 rounded-full text-white">
           Preview
         </Link>
       </div>
@@ -22,7 +22,7 @@ const ProjectCard = ({ project: { title, description, image, gitUrl, previewUrl,
         {techStack.map((tech, id) => {
           return (
             <div key={id} className="techStack-cont mt-2 mb-2 flex justify-between">
-              <a href={tech[1]}>{tech[0]}</a>
+              <a target="_blank" href={tech[1]}>{tech[0]}</a>
             </div>
           );
         })}
