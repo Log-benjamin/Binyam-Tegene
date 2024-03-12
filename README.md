@@ -25,7 +25,7 @@
 
 ### 📖 A Portfolio Page using HTML and CSS <a name="about-project"></a>
 
-This is My Personal Portfolio Project to showcase my skills and projects as a Full stack developer. It is a mobile first responsive website built with React Framework
+This is My Personal Portfolio Project to showcase my skills and projects as a Full stack developer. It is a mobile first responsive website built with Next JS Framework
 
 ## 🛠 Built With <a name="built-with"></a>
 
